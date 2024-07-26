@@ -22,5 +22,5 @@ print(score)
 
 # Union type for variables that can hold multiple types
 indentifier: Union[int, str] = "IPS18"
-# indentifier = 123456
+indentifier = 123456    #Also valid
 print(indentifier)
