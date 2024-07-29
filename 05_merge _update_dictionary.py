@@ -17,8 +17,3 @@
 '''
 You can now use miltiple context managers in a single 'with' statement more clearly using the parenthesised contect manager
 '''
-
-with (
-    open('file1.txt') as f1,
-    open('file2.txt') as f2
-) :
