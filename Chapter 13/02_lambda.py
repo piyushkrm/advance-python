@@ -8,4 +8,10 @@ def square(n) :
 #   Same problem solved by lambda keyword
 
 squar = lambda z : z*z
-print(squar(5))
+# print(squar(5))
+
+
+# Another example
+
+sum = lambda a,b,c : a+b+c
+print(sum(20, 40, 60))
