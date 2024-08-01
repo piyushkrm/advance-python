@@ -21,3 +21,15 @@ def even(n) :
 
 onlyEven = filter(even, lis)
 print(list(onlyEven))
+
+
+
+# Reduce Example
+
+from functools import reduce
+
+sumList = [2, 5, 6, 8, 10, 12, 29]
+
+sum = lambda x,y : x+y
+
+print(reduce(sum, sumList))
